@@ -13,3 +13,59 @@
  *= require_tree .
  *= require_self
  */
+.back-btn a{
+    color: white;
+}
+
+.back-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.edit-show-btn a, .edit-back-btn a{
+    color: white;
+}
+
+.edit-show-btn, .edit-back-btn{
+    width: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.edit-btn-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.show-btn-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.show-edit-del-btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show-edit-btn, .show-del-btn{
+    width: 48%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.show-back-btn{
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+}
+
+.card-content-container{
+    margin: 30px;
+}
+
+.archives-index-btn-container{
+    padding-bottom: 30px;
+}
