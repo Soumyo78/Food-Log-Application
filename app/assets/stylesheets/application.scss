@@ -13,6 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.entries-main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .back-btn a{
     color: white;
 }
@@ -68,4 +73,8 @@
 
 .archives-index-btn-container{
     padding-bottom: 30px;
+}
+
+.entries-view-all-btn{
+    margin-bottom: 20px;
 }

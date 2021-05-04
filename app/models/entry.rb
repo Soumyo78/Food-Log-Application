@@ -12,6 +12,11 @@
 #  updated_at    :datetime         not null
 #
 class Entry < ApplicationRecord
+  paginates_per 50
+  max_paginates_per 100
+
+  validates :meal_type, :calories, :carbohydrates, :fats, :proteins, presence: true
+  
   def day
     self.created_at.strftime("%b %e, %Y")
   end
