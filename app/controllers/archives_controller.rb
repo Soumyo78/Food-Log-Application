@@ -1,5 +1,5 @@
 class ArchivesController < ApplicationController
   def index
-    @entries = Entry.all.page(params[:page]).group_by(&:day)
+    @entries = Entry.page(params[:page]).per(10).group_by(&:day)
   end
 end
